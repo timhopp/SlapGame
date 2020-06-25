@@ -1,0 +1,27 @@
+body{
+  background-color: #4A1942;
+  color: #E0CA3C;
+}
+
+
+.max-height{
+  height: 500px;
+  max-width: auto;
+}
+
+.hidden{
+  display: none!important;
+
+}
+
+.drunk.img{
+  filter: drop-shadow(2px 4px 6px #1b1b1b);
+  transition: all .35s ease;
+}
+.happyGlow{
+  filter: drop-shadow(2px 4px 6px #00ffb3)!important;
+}
+
+.sadGlow{
+  filter: drop-shadow(2px 4px 6px #ff0000) contrast(1);
+}
